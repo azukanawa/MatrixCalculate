@@ -47,7 +47,7 @@ int main() {
         printf("输入矩阵为：\n");
         PrintfMatrix(&A);
 
-        printf("%lf\n", MeanMatrix(&A));
+        printf("该矩阵均值为：%lf\n", MeanMatrix(&A));
 
         DestroyMatrix(&A);
 
@@ -61,7 +61,7 @@ int main() {
 
         printf("随机数矩阵为：\n");
         PrintfMatrix(&A);
-        printf("%lf\n", MeanMatrix(&A));
+        printf("该矩阵均值为：%lf\n", MeanMatrix(&A));
 
         DestroyMatrix(&A);
 
