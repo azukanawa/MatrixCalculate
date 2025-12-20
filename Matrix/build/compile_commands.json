@@ -1,0 +1,14 @@
+[
+{
+  "directory": "D:/MatrixCalculate/Matrix/build/Doc",
+  "command": "D:\\MinGW64\\bin\\gcc.exe  @CMakeFiles/MatrixCalculate.dir/includes_C.rsp -g -o CMakeFiles\\MatrixCalculate.dir\\main.c.obj -c D:\\MatrixCalculate\\Matrix\\Doc\\main.c",
+  "file": "D:/MatrixCalculate/Matrix/Doc/main.c",
+  "output": "Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj"
+},
+{
+  "directory": "D:/MatrixCalculate/Matrix/build/Doc",
+  "command": "D:\\MinGW64\\bin\\gcc.exe  @CMakeFiles/MatrixCalculate.dir/includes_C.rsp -g -o CMakeFiles\\MatrixCalculate.dir\\function.c.obj -c D:\\MatrixCalculate\\Matrix\\Doc\\function.c",
+  "file": "D:/MatrixCalculate/Matrix/Doc/function.c",
+  "output": "Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj"
+}
+]

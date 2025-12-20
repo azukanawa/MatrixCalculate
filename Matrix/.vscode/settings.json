@@ -1,7 +1,0 @@
-{
-  "files.associations": {
-    "matrix.h": "c",
-    "stdlib.h": "c",
-    "uthash.h": "c"
-  }
-}

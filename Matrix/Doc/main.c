@@ -7,44 +7,44 @@ int main() {
   Matrix A = {NULL, 0, 0};
   Matrix B = {NULL, 0, 0};
   Matrix C = {NULL, 0, 0};
-  srand((unsigned int)time(NULL));  // éšæœºæ•°ç§å­
+  srand((unsigned int)time(NULL));  // Ëæ»úÊıÖÖ×Ó
   while (1) {
-    printf("çŸ©é˜µå‡½æ•°æµ‹è¯•ï¼Œè¯·é€‰æ‹©åŠŸèƒ½ï¼Œè¾“å…¥å¯¹åº”çš„æ•°å­—ï¼š\n");
+    printf("¾ØÕóº¯Êı²âÊÔ£¬ÇëÑ¡Ôñ¹¦ÄÜ£¬ÊäÈë¶ÔÓ¦µÄÊı×Ö£º\n");
     printf("***************************************************\n");
-    printf("1ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå‡å€¼ï¼›\n");
-    printf("2ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå‡å€¼ï¼›\n");
-    printf("3ï¼šè¾“å…¥ä¸¤ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå’Œï¼›\n");
-    printf("4ï¼šè¾“å…¥ä¸¤ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå·®ï¼›\n");
-    printf("5ï¼šè¾“å…¥ä¸¤ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µç§¯ï¼›\n");
-    printf("6ï¼šäº§ç”Ÿä¸¤ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå’Œï¼›\n");
-    printf("7ï¼šäº§ç”Ÿä¸¤ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå·®ï¼›\n");
-    printf("8ï¼šäº§ç”Ÿä¸¤ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µç§¯ï¼›\n");
-    printf("9ï¼šæ±‚çŸ©é˜µçš„å­é˜µï¼Œå¦‚çŸ©é˜µçš„2-4è¡Œï¼Œ1-3åˆ—çš„å­é˜µï¼›\n");
-    printf("10ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå…ƒç´ çš„æœ€å¤§å€¼ï¼›\n");
-    printf("11ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå…ƒç´ çš„æœ€å¤§å€¼ï¼›\n");
-    printf("12ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µè½¬ç½®ï¼›\n");
-    printf("13ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µè½¬ç½®ï¼›\n");
-    printf("14ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå½’ä¸€åŒ–ï¼›\n");
-    printf("15ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå½’ä¸€åŒ–ï¼›\n");
-    printf("16ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µçš„é€†ï¼›\n");
-    printf("17ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µçš„é€†ï¼›\n");
-    printf("0ï¼šç»“æŸ!\n");
+    printf("1£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕó¾ùÖµ£»\n");
+    printf("2£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó¾ùÖµ£»\n");
+    printf("3£ºÊäÈëÁ½¸ö¾ØÕó£¬Çó¾ØÕóºÍ£»\n");
+    printf("4£ºÊäÈëÁ½¸ö¾ØÕó£¬Çó¾ØÕó²î£»\n");
+    printf("5£ºÊäÈëÁ½¸ö¾ØÕó£¬Çó¾ØÕó»ı£»\n");
+    printf("6£º²úÉúÁ½¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕóºÍ£»\n");
+    printf("7£º²úÉúÁ½¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó²î£»\n");
+    printf("8£º²úÉúÁ½¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó»ı£»\n");
+    printf("9£ºÇó¾ØÕóµÄ×ÓÕó£¬Èç¾ØÕóµÄ2-4ĞĞ£¬1-3ÁĞµÄ×ÓÕó£»\n");
+    printf("10£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕóÔªËØµÄ×î´óÖµ£»\n");
+    printf("11£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕóÔªËØµÄ×î´óÖµ£»\n");
+    printf("12£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕó×ªÖÃ£»\n");
+    printf("13£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó×ªÖÃ£»\n");
+    printf("14£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕó¹éÒ»»¯£»\n");
+    printf("15£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó¹éÒ»»¯£»\n");
+    printf("16£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕóµÄÄæ£»\n");
+    printf("17£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕóµÄÄæ£»\n");
+    printf("0£º½áÊø!\n");
 
-    int input = 0;  // ç”¨æˆ·è¾“å…¥
+    int input = 0;  // ÓÃ»§ÊäÈë
     scanf("%d", &input);
     switch (input) {
       case 0:
         return 0;
-      case 1:  // 1ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå‡å€¼ï¼›
+      case 1:  // 1£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕó¾ùÖµ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
 
         InputMatrix(&A);
 
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         printf("%lf\n", MeanMatrix(&A));
@@ -52,38 +52,38 @@ int main() {
         DestroyMatrix(&A);
 
         break;
-      case 2:  // 2ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå‡å€¼ï¼›
+      case 2:  // 2£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó¾ùÖµ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixRand(&A, A.row, A.col);
 
-        printf("éšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("Ëæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
         printf("%lf\n", MeanMatrix(&A));
 
         DestroyMatrix(&A);
 
         break;
-      case 3:  // 3ï¼šè¾“å…¥ä¸¤ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå’Œï¼›
+      case 3:  // 3£ºÊäÈëÁ½¸ö¾ØÕó£¬Çó¾ØÕóºÍ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
         InputMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&B);
         InitialMatrixZero(&B, A.row, A.col);
         InputMatrix(&B);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&B);
 
         AddMatrix(&A, &B, &C);
-        printf("è¾“å…¥çŸ©é˜µä¹‹å’Œä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÖ®ºÍÎª£º\n");
         PrintfMatrix(&C);
 
         DestroyMatrix(&A);
@@ -91,24 +91,24 @@ int main() {
         DestroyMatrix(&C);
 
         break;
-      case 4:  // 4ï¼šè¾“å…¥ä¸¤ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå·®ï¼›
+      case 4:  // 4£ºÊäÈëÁ½¸ö¾ØÕó£¬Çó¾ØÕó²î£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
         InputMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&B);
         InitialMatrixZero(&B, A.row, A.col);
         InputMatrix(&B);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&B);
 
         MinusMatrix(&A, &B, &C);
-        printf("è¾“å…¥çŸ©é˜µä¹‹å·®ä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÖ®²îÎª£º\n");
         PrintfMatrix(&C);
 
         DestroyMatrix(&A);
@@ -116,28 +116,28 @@ int main() {
         DestroyMatrix(&C);
 
         break;
-      case 5:  // 5ï¼šè¾“å…¥ä¸¤ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µç§¯ï¼›
+      case 5:  // 5£ºÊäÈëÁ½¸ö¾ØÕó£¬Çó¾ØÕó»ı£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
         InputMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&B);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &B.row);
         scanf("%d", &B.col);
         InitialMatrixZero(&B, B.row, B.col);
         InputMatrix(&B);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&B);
 
         MultiMatrix(&A, &B, &C);
 
-        printf("è¾“å…¥çŸ©é˜µä¹‹ç§¯ä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÖ®»ıÎª£º\n");
         PrintfMatrix(&C);
 
         DestroyMatrix(&A);
@@ -145,22 +145,22 @@ int main() {
         DestroyMatrix(&C);
 
         break;
-      case 6:  // 6ï¼šäº§ç”Ÿä¸¤ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå’Œï¼›
+      case 6:  // 6£º²úÉúÁ½¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕóºÍ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixRand(&A, A.row, A.col);
-        printf("äº§ç”Ÿçš„ç¬¬ä¸€ä¸ªéšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄµÚÒ»¸öËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&B);
         InitialMatrixRand(&B, A.row, A.col);
-        printf("äº§ç”Ÿçš„ç¬¬äºŒä¸ªéšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄµÚ¶ş¸öËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&B);
 
         AddMatrix(&A, &B, &C);
-        printf("éšæœºæ•°çŸ©é˜µä¹‹å’Œä¸ºï¼š\n");
+        printf("Ëæ»úÊı¾ØÕóÖ®ºÍÎª£º\n");
         PrintfMatrix(&C);
 
         DestroyMatrix(&A);
@@ -168,22 +168,22 @@ int main() {
         DestroyMatrix(&C);
 
         break;
-      case 7:  // 7ï¼šäº§ç”Ÿä¸¤ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå·®ï¼›
+      case 7:  // 7£º²úÉúÁ½¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó²î£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixRand(&A, A.row, A.col);
-        printf("äº§ç”Ÿçš„ç¬¬ä¸€ä¸ªéšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄµÚÒ»¸öËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&B);
         InitialMatrixRand(&B, A.row, A.col);
-        printf("äº§ç”Ÿçš„ç¬¬äºŒä¸ªéšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄµÚ¶ş¸öËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&B);
 
         MinusMatrix(&A, &B, &C);
-        printf("éšæœºæ•°çŸ©é˜µä¹‹å·®ä¸ºï¼š\n");
+        printf("Ëæ»úÊı¾ØÕóÖ®²îÎª£º\n");
         PrintfMatrix(&C);
 
         DestroyMatrix(&A);
@@ -191,25 +191,25 @@ int main() {
         DestroyMatrix(&C);
 
         break;
-      case 8:  // 8ï¼šäº§ç”Ÿä¸¤ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µç§¯ï¼›
+      case 8:  // 8£º²úÉúÁ½¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó»ı£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixRand(&A, A.row, A.col);
-        printf("äº§ç”Ÿçš„ç¬¬ä¸€ä¸ªéšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄµÚÒ»¸öËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&B);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &B.row);
         scanf("%d", &B.col);
         InitialMatrixRand(&B, B.row, B.col);
-        printf("äº§ç”Ÿçš„ç¬¬äºŒä¸ªéšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄµÚ¶ş¸öËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&B);
 
         MultiMatrix(&A, &B, &C);
-        printf("éšæœºæ•°çŸ©é˜µä¹‹ç§¯ä¸ºï¼š\n");
+        printf("Ëæ»úÊı¾ØÕóÖ®»ıÎª£º\n");
         PrintfMatrix(&C);
 
         DestroyMatrix(&A);
@@ -217,34 +217,34 @@ int main() {
         DestroyMatrix(&C);
 
         break;
-      case 9:          // 9ï¼šæ±‚çŸ©é˜µçš„å­é˜µï¼Œå¦‚çŸ©é˜µçš„2-4è¡Œï¼Œ1-3åˆ—çš„å­é˜µï¼›
-        int BeginRow;  // å­é˜µèµ·å§‹è¡Œ
-        int BeginCol;  // å­é˜µç»ˆæ­¢è¡Œ
-        int EndRow;    // å­é˜µèµ·å§‹åˆ—
-        int EndCol;    // å­é˜µç»ˆæ­¢åˆ—
+      case 9:          // 9£ºÇó¾ØÕóµÄ×ÓÕó£¬Èç¾ØÕóµÄ2-4ĞĞ£¬1-3ÁĞµÄ×ÓÕó£»
+        int BeginRow;  // ×ÓÕóÆğÊ¼ĞĞ
+        int BeginCol;  // ×ÓÕóÖÕÖ¹ĞĞ
+        int EndRow;    // ×ÓÕóÆğÊ¼ÁĞ
+        int EndCol;    // ×ÓÕóÖÕÖ¹ÁĞ
 
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
         InputMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
-        printf("è¯·è¾“å…¥å­çŸ©é˜µå¼€å§‹çš„è¡Œæ•°\n");
+        printf("ÇëÊäÈë×Ó¾ØÕó¿ªÊ¼µÄĞĞÊı\n");
         scanf("%d", &BeginRow);
-        printf("è¯·è¾“å…¥å­çŸ©é˜µå¼€å§‹çš„åˆ—æ•°\n");
+        printf("ÇëÊäÈë×Ó¾ØÕó¿ªÊ¼µÄÁĞÊı\n");
         scanf("%d", &BeginCol);
-        printf("è¯·è¾“å…¥å­çŸ©é˜µç»“æŸçš„è¡Œæ•°\n");
+        printf("ÇëÊäÈë×Ó¾ØÕó½áÊøµÄĞĞÊı\n");
         scanf("%d", &EndRow);
-        printf("è¯·è¾“å…¥å­çŸ©é˜µç»“æŸçš„åˆ—æ•°\n");
+        printf("ÇëÊäÈë×Ó¾ØÕó½áÊøµÄÁĞÊı\n");
         scanf("%d", &EndCol);
 
         DestroyMatrix(&B);
 
         if (SubMatrix(&A, &B, BeginRow, BeginCol, EndRow, EndCol) == 1) {
-          printf("å­çŸ©é˜µä¸ºï¼š\n");
+          printf("×Ó¾ØÕóÎª£º\n");
           PrintfMatrix(&B);
         }
 
@@ -252,125 +252,125 @@ int main() {
         DestroyMatrix(&B);
 
         break;
-      case 10:  // 10ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå…ƒç´ çš„æœ€å¤§å€¼ï¼›
+      case 10:  // 10£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕóÔªËØµÄ×î´óÖµ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
         InputMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
-        printf("è¯¥çŸ©é˜µå…ƒç´ æœ€å¤§å€¼ä¸ºï¼š%lf\n", MaxMatrix(&A));
+        printf("¸Ã¾ØÕóÔªËØ×î´óÖµÎª£º%lf\n", MaxMatrix(&A));
         DestroyMatrix(&A);
         break;
-      case 11:  // 11ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå…ƒç´ çš„æœ€å¤§å€¼ï¼›
+      case 11:  // 11£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕóÔªËØµÄ×î´óÖµ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixRand(&A, A.row, A.col);
-        printf("äº§ç”Ÿçš„éšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
-        printf("è¯¥çŸ©é˜µå…ƒç´ æœ€å¤§å€¼ä¸ºï¼š%lf\n", MaxMatrix(&A));
+        printf("¸Ã¾ØÕóÔªËØ×î´óÖµÎª£º%lf\n", MaxMatrix(&A));
         DestroyMatrix(&A);
         break;
-      case 12:  // 12ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µè½¬ç½®ï¼›
+      case 12:  // 12£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕó×ªÖÃ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
         InputMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         TransMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µçš„è½¬ç½®ä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóµÄ×ªÖÃÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&A);
         break;
-      case 13:  // 13ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µè½¬ç½®ï¼›
+      case 13:  // 13£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó×ªÖÃ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixRand(&A, A.row, A.col);
-        printf("äº§ç”Ÿçš„éšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         TransMatrix(&A);
-        printf("äº§ç”Ÿçš„éšæœºæ•°çŸ©é˜µçš„è½¬ç½®ä¸ºï¼š\n");
+        printf("²úÉúµÄËæ»úÊı¾ØÕóµÄ×ªÖÃÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&A);
         break;
-      case 14:  // 14ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µå½’ä¸€åŒ–ï¼›
+      case 14:  // 14£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕó¹éÒ»»¯£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
         InputMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         NormMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µå½’ä¸€åŒ–åä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕó¹éÒ»»¯ºóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&A);
         break;
-      case 15:  // 15ï¼šäº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µå½’ä¸€åŒ–ï¼›
+      case 15:  // 15£º²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕó¹éÒ»»¯£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixRand(&A, A.row, A.col);
-        printf("äº§ç”Ÿçš„éšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         NormMatrix(&A);
-        printf("äº§ç”Ÿçš„éšæœºæ•°çŸ©é˜µå½’ä¸€åŒ–åä¸ºï¼š\n");
+        printf("²úÉúµÄËæ»úÊı¾ØÕó¹éÒ»»¯ºóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&A);
         break;
-      case 16:  // 16ï¼šè¾“å…¥ä¸€ä¸ªçŸ©é˜µï¼Œæ±‚çŸ©é˜µçš„é€†ï¼›
+      case 16:  // 16£ºÊäÈëÒ»¸ö¾ØÕó£¬Çó¾ØÕóµÄÄæ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixZero(&A, A.row, A.col);
         InputMatrix(&A);
-        printf("è¾“å…¥çŸ©é˜µä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&B);
         ReverseMatrix(&A, &B);
 
-        printf("è¾“å…¥çŸ©é˜µçš„é€†ä¸ºï¼š\n");
+        printf("ÊäÈë¾ØÕóµÄÄæÎª£º\n");
         PrintfMatrix(&B);
 
         DestroyMatrix(&A);
         DestroyMatrix(&B);
         break;
-      case 17:  // äº§ç”Ÿä¸€ä¸ªéšæœºæ•°çŸ©é˜µï¼Œæ±‚çŸ©é˜µçš„é€†ï¼›
+      case 17:  // ²úÉúÒ»¸öËæ»úÊı¾ØÕó£¬Çó¾ØÕóµÄÄæ£»
         DestroyMatrix(&A);
-        printf("è¯·è¾“å…¥çŸ©é˜µè¡Œæ•°å’Œåˆ—æ•°\n");
+        printf("ÇëÊäÈë¾ØÕóĞĞÊıºÍÁĞÊı\n");
         scanf("%d", &A.row);
         scanf("%d", &A.col);
         InitialMatrixRand(&A, A.row, A.col);
-        printf("äº§ç”Ÿçš„éšæœºæ•°çŸ©é˜µä¸ºï¼š\n");
+        printf("²úÉúµÄËæ»úÊı¾ØÕóÎª£º\n");
         PrintfMatrix(&A);
 
         DestroyMatrix(&B);
         ReverseMatrix(&A, &B);
 
-        printf("äº§ç”Ÿçš„éšæœºæ•°çŸ©é˜µçš„é€†2ä¸ºï¼š\n");
+        printf("²úÉúµÄËæ»úÊı¾ØÕóµÄÄæÎª£º\n");
         PrintfMatrix(&B);
 
         DestroyMatrix(&A);

@@ -4,21 +4,21 @@
 
 #include "../Lib/Matrix.h"
 
-int get_random(int a, int b)  // è·å¾—[a, b]çš„éšæœºæ•´æ•°
+int get_random(int a, int b)  // »ñµÃ[a, b]µÄËæ»úÕûÊı
 {
   return rand() % (b - a + 1) + a;
 }
 
-void InitialMatrix(Matrix* T, int row, int col)  // åªåˆ†é…ç©ºé—´ä¸åˆå§‹åŒ–ï¼›
+void InitialMatrix(Matrix* T, int row, int col)  // Ö»·ÖÅä¿Õ¼ä²»³õÊ¼»¯£»
 {
   int i = 0;
 
   if (row <= 0 || col <= 0) {
-    printf("error, çŸ©é˜µè¡Œæˆ–åˆ—æœªå¤§äº0\n");
+    printf("error, ¾ØÕóĞĞ»òÁĞÎ´´óÓÚ0\n");
     return;
   }
   if (T == NULL) {
-    printf("error, çŸ©é˜µæœªåˆ†é…å†…å­˜\n");
+    printf("error, ¾ØÕóÎ´·ÖÅäÄÚ´æ\n");
     return;
   }
   T->row = row;
@@ -32,7 +32,7 @@ void InitialMatrix(Matrix* T, int row, int col)  // åªåˆ†é…ç©ºé—´ä¸åˆå§‹åŒ–ï
   return;
 }
 
-void InitialMatrixZero(Matrix* T, int row, int col)  // åˆå§‹åŒ–ä¸º0
+void InitialMatrixZero(Matrix* T, int row, int col)  // ³õÊ¼»¯Îª0
 {
   int i = 0;
   int j = 0;
@@ -51,7 +51,7 @@ void InitialMatrixZero(Matrix* T, int row, int col)  // åˆå§‹åŒ–ä¸º0
   return;
 }
 
-void InitialMatrixRand(Matrix* T, int row, int col)  // åˆå§‹åŒ–ä¸º50ä»¥å†…éšæœºæ­£æ•´æ•°
+void InitialMatrixRand(Matrix* T, int row, int col)  // ³õÊ¼»¯Îª50ÒÔÄÚËæ»úÕıÕûÊı
 {
   int i = 0;
   int j = 0;
@@ -70,11 +70,11 @@ void InitialMatrixRand(Matrix* T, int row, int col)  // åˆå§‹åŒ–ä¸º50ä»¥å†…éšæ
   return;
 }
 
-void InputMatrix(Matrix* T)  // é”®ç›˜è¾“å…¥çŸ©é˜µ
+void InputMatrix(Matrix* T)  // ¼üÅÌÊäÈë¾ØÕó
 {
-  printf("è¯·è¾“å…¥%dè¡Œ%dåˆ—çŸ©é˜µå…ƒç´ (æŒ‰è¡Œè¾“å…¥,ç©ºæ ¼åˆ†éš”):\n", T->row, T->col);
+  printf("ÇëÊäÈë%dĞĞ%dÁĞ¾ØÕóÔªËØ(°´ĞĞÊäÈë,¿Õ¸ñ·Ö¸ô):\n", T->row, T->col);
   if (T->mat == NULL) {
-    printf("çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¾ØÕóÎ´³õÊ¼»¯\n");
     return;
   }
 
@@ -90,7 +90,7 @@ void InputMatrix(Matrix* T)  // é”®ç›˜è¾“å…¥çŸ©é˜µ
   return;
 }
 
-void DestroyMatrix(Matrix* T)  // é‡Šæ”¾çŸ©é˜µç©ºé—´
+void DestroyMatrix(Matrix* T)  // ÊÍ·Å¾ØÕó¿Õ¼ä
 {
   int i = 0;
 
@@ -108,10 +108,10 @@ void DestroyMatrix(Matrix* T)  // é‡Šæ”¾çŸ©é˜µç©ºé—´
   return;
 }
 
-void PrintfMatrix(Matrix* T)  // çŸ©é˜µè¾“å‡º
+void PrintfMatrix(Matrix* T)  // ¾ØÕóÊä³ö
 {
   if (T == NULL || T->mat == NULL) {
-    printf("è¯¥çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¸Ã¾ØÕóÎ´³õÊ¼»¯\n");
     return;
   }
 
@@ -128,10 +128,10 @@ void PrintfMatrix(Matrix* T)  // çŸ©é˜µè¾“å‡º
   return;
 }
 
-int AddMatrix(Matrix* A, Matrix* B, Matrix* C)  // çŸ©é˜µåŠ ï¼Œ C = A + B
+int AddMatrix(Matrix* A, Matrix* B, Matrix* C)  // ¾ØÕó¼Ó£¬ C = A + B
 {
   if (A->col != B->col || A->row != B->row) {
-    printf("çŸ©é˜µç»´åº¦ä¸åŒ¹é…ï¼Œæ— æ³•ç›¸åŠ ï¼\n");
+    printf("¾ØÕóÎ¬¶È²»Æ¥Åä£¬ÎŞ·¨Ïà¼Ó£¡\n");
     return 0;
   }
   InitialMatrixZero(C, A->row, A->col);
@@ -152,10 +152,10 @@ int AddMatrix(Matrix* A, Matrix* B, Matrix* C)  // çŸ©é˜µåŠ ï¼Œ C = A + B
   return 1;
 }
 
-int MinusMatrix(Matrix* A, Matrix* B, Matrix* C)  // çŸ©é˜µå‡ï¼Œ C = A - B
+int MinusMatrix(Matrix* A, Matrix* B, Matrix* C)  // ¾ØÕó¼õ£¬ C = A - B
 {
   if (A->col != B->col || A->row != B->row) {
-    printf("çŸ©é˜µç»´åº¦ä¸åŒ¹é…ï¼Œæ— æ³•ç›¸å‡ï¼\n");
+    printf("¾ØÕóÎ¬¶È²»Æ¥Åä£¬ÎŞ·¨Ïà¼õ£¡\n");
     return 0;
   }
 
@@ -177,10 +177,10 @@ int MinusMatrix(Matrix* A, Matrix* B, Matrix* C)  // çŸ©é˜µå‡ï¼Œ C = A - B
   return 1;
 }
 
-int MultiMatrix(Matrix* A, Matrix* B, Matrix* C)  // çŸ©é˜µä¹˜æ³•ï¼ŒC = A * B
+int MultiMatrix(Matrix* A, Matrix* B, Matrix* C)  // ¾ØÕó³Ë·¨£¬C = A * B
 {
   if (A->col != B->row) {
-    printf("çŸ©é˜µç»´åº¦ä¸åŒ¹é…ï¼Œæ— æ³•ç›¸ä¹˜ï¼\n");
+    printf("¾ØÕóÎ¬¶È²»Æ¥Åä£¬ÎŞ·¨Ïà³Ë£¡\n");
     return 0;
   }
   InitialMatrixZero(C, A->row, B->col);
@@ -203,11 +203,11 @@ int MultiMatrix(Matrix* A, Matrix* B, Matrix* C)  // çŸ©é˜µä¹˜æ³•ï¼ŒC = A * B
   return 1;
 }
 
-double MeanMatrix(Matrix* T)  // çŸ©é˜µå…ƒç´ å‡å€¼
+double MeanMatrix(Matrix* T)  // ¾ØÕóÔªËØ¾ùÖµ
 {
   double sum = 0.0;
   if (T == NULL || T->mat == NULL) {
-    printf("è¯¥çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¸Ã¾ØÕóÎ´³õÊ¼»¯\n");
     return NAN;
   }
   int i = 0;
@@ -222,21 +222,21 @@ double MeanMatrix(Matrix* T)  // çŸ©é˜µå…ƒç´ å‡å€¼
 }
 
 int SubMatrix(Matrix* T1, Matrix* T2, int BeginRow, int BeginCol, int EndRow,
-              int EndCol)  // æ±‚T1çš„å­çŸ©é˜µT2
+              int EndCol)  // ÇóT1µÄ×Ó¾ØÕóT2
 {
   if (T1 == NULL || T1->mat == NULL) {
-    printf("è¯¥çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¸Ã¾ØÕóÎ´³õÊ¼»¯\n");
     return 0;
   }
   if (BeginRow > T1->row || EndRow > T1->row || BeginCol > T1->col ||
       EndCol > T1->col || BeginRow > EndRow || BeginCol > EndCol ||
       BeginRow < 1 || EndRow < 1 || EndCol < 1 || BeginCol < 1) {
-    printf("å­çŸ©é˜µé€‰å–éæ³•\n");
+    printf("×Ó¾ØÕóÑ¡È¡·Ç·¨\n");
     return 0;
   }
   InitialMatrixZero(T2, EndRow - BeginRow + 1, EndCol - BeginCol + 1);
   if (T2->mat == NULL) {
-    printf("å­çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("×Ó¾ØÕóÎ´³õÊ¼»¯\n");
     return 0;
   }
   int i = 0;
@@ -249,10 +249,10 @@ int SubMatrix(Matrix* T1, Matrix* T2, int BeginRow, int BeginCol, int EndRow,
   return 1;
 }
 
-double MaxMatrix(Matrix* T)  // çŸ©é˜µå…ƒç´ æœ€å¤§å€¼
+double MaxMatrix(Matrix* T)  // ¾ØÕóÔªËØ×î´óÖµ
 {
   if (T == NULL || T->mat == NULL) {
-    printf("è¯¥çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¸Ã¾ØÕóÎ´³õÊ¼»¯\n");
     return NAN;
   }
   double max = T->mat[0][0];
@@ -268,10 +268,10 @@ double MaxMatrix(Matrix* T)  // çŸ©é˜µå…ƒç´ æœ€å¤§å€¼
   return max;
 }
 
-void TransMatrix(Matrix* T)  // çŸ©é˜µè½¬ç½®
+void TransMatrix(Matrix* T)  // ¾ØÕó×ªÖÃ
 {
   if (T == NULL || T->mat == NULL) {
-    printf("è¯¥çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¸Ã¾ØÕóÎ´³õÊ¼»¯\n");
     return;
   }
 
@@ -294,10 +294,10 @@ void TransMatrix(Matrix* T)  // çŸ©é˜µè½¬ç½®
   tem.row = 0;
 }
 
-void NormMatrix(Matrix* T)  // çŸ©é˜µå½’ä¸€åŒ–
+void NormMatrix(Matrix* T)  // ¾ØÕó¹éÒ»»¯
 {
   if (T == NULL || T->mat == NULL) {
-    printf("è¯¥çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¸Ã¾ØÕóÎ´³õÊ¼»¯\n");
     return;
   }
 
@@ -306,13 +306,13 @@ void NormMatrix(Matrix* T)  // çŸ©é˜µå½’ä¸€åŒ–
     for (int j = 0; j < T->col; j++) {
       double current_abs = fabs(T->mat[i][j]);
       if (current_abs > max_abs) {
-        max_abs = current_abs;  // å–å…ƒç´ ç»å¯¹å€¼çš„æœ€å¤§å€¼
+        max_abs = current_abs;  // È¡ÔªËØ¾ø¶ÔÖµµÄ×î´óÖµ
       }
     }
   }
 
   if (max_abs < 1e-9) {
-    printf("å…¨é›¶çŸ©é˜µæ— éœ€å½’ä¸€åŒ–\n");
+    printf("È«Áã¾ØÕóÎŞĞè¹éÒ»»¯\n");
     return;
   }
 
@@ -323,30 +323,30 @@ void NormMatrix(Matrix* T)  // çŸ©é˜µå½’ä¸€åŒ–
   }
 }
 
-double Determinant(Matrix* T)  // æ±‚è¡Œåˆ—å¼
+double Determinant(Matrix* T)  // ÇóĞĞÁĞÊ½
 {
   if (T == NULL || T->mat == NULL) {
-    printf("è¯¥çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¸Ã¾ØÕóÎ´³õÊ¼»¯\n");
     return NAN;
   }
 
   if (T->row != T->col) {
-    printf("éæ–¹é˜µæ— æ³•è®¡ç®—è¡Œåˆ—å¼\n");
+    printf("·Ç·½ÕóÎŞ·¨¼ÆËãĞĞÁĞÊ½\n");
     return NAN;
   }
 
   if (T->row == 1) {
     return T->mat[0][0];
   }
-  Matrix Aij;  // ä½™å­å¼
+  Matrix Aij;  // Óà×ÓÊ½
   Aij.mat = NULL;
   double det = 0.0;
-  int i = 0;  // å–å‡ºå…ƒç´ çš„åˆ—æ•°
+  int i = 0;  // È¡³öÔªËØµÄÁĞÊı
   int z = 0;
 
   for (i = 0; i < T->col; i++) {
-    int x = 0;  // ä½™å­å¼è¡Œæ•°
-    int y = 0;  // ä½™å­å¼åˆ—æ•°
+    int x = 0;  // Óà×ÓÊ½ĞĞÊı
+    int y = 0;  // Óà×ÓÊ½ÁĞÊı
     InitialMatrixZero(&Aij, T->row - 1, T->col - 1);
     for (int i1 = 1; i1 < T->row; i1++) {
       y = 0;
@@ -354,7 +354,7 @@ double Determinant(Matrix* T)  // æ±‚è¡Œåˆ—å¼
         if (i2 == i) {
           continue;
         }
-        Aij.mat[x][y] = T->mat[i1][i2];  // æŒ‰ç¬¬ä¸€è¡Œå±•å¼€çš„ä½™å­å¼
+        Aij.mat[x][y] = T->mat[i1][i2];  // °´µÚÒ»ĞĞÕ¹¿ªµÄÓà×ÓÊ½
         y++;
       }
       x++;
@@ -370,14 +370,14 @@ double Determinant(Matrix* T)  // æ±‚è¡Œåˆ—å¼
   return det;
 }
 
-void AdjugateMatrix(Matrix* T, Matrix* adj)  // æ±‚ä¼´éšçŸ©é˜µ
+void AdjugateMatrix(Matrix* T, Matrix* adj)  // Çó°éËæ¾ØÕó
 {
   if (T == NULL || T->mat == NULL) {
-    printf("è¯¥çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¸Ã¾ØÕóÎ´³õÊ¼»¯\n");
     return;
   }
   if (T->row != T->col) {
-    printf("éæ–¹é˜µæ— æ³•è®¡ç®—ä¼´éšçŸ©é˜µ\n");
+    printf("·Ç·½ÕóÎŞ·¨¼ÆËã°éËæ¾ØÕó\n");
     return;
   }
   DestroyMatrix(adj);
@@ -387,7 +387,7 @@ void AdjugateMatrix(Matrix* T, Matrix* adj)  // æ±‚ä¼´éšçŸ©é˜µ
     return;
   }
 
-  Matrix Aij;  // ä½™å­å¼
+  Matrix Aij;  // Óà×ÓÊ½
   Aij.mat = NULL;
 
   int z = 0;
@@ -423,19 +423,19 @@ void AdjugateMatrix(Matrix* T, Matrix* adj)  // æ±‚ä¼´éšçŸ©é˜µ
   }
 }
 
-void ReverseMatrix(Matrix* A, Matrix* B)  // Bæ˜¯Açš„é€†çŸ©é˜µ
+void ReverseMatrix(Matrix* A, Matrix* B)  // BÊÇAµÄÄæ¾ØÕó
 {
   if (A == NULL || B == NULL || A->mat == NULL) {
-    printf("çŸ©é˜µæœªåˆå§‹åŒ–\n");
+    printf("¾ØÕóÎ´³õÊ¼»¯\n");
     return;
   }
   if (A->row != A->col) {
-    printf("éæ–¹é˜µæ— æ³•è®¡ç®—è¡Œåˆ—å¼\n");
+    printf("·Ç·½ÕóÎŞ·¨¼ÆËãĞĞÁĞÊ½\n");
     return;
   }
   double determinant = Determinant(A);
   if (fabs(determinant) < 1e-9) {
-    printf("è¯¥çŸ©é˜µæ— é€†çŸ©é˜µ\n");
+    printf("¸Ã¾ØÕóÎŞÄæ¾ØÕó\n");
     return;
   }
   DestroyMatrix(B);

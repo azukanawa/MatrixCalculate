@@ -3,39 +3,41 @@
 
 #include "../Lib/Matrix.h"
 
-int get_random(int a, int b); // è·å¾—[a, b]çš„éšæœºæ•´æ•°
+int get_random(int a, int b);  // »ñµÃ[a, b]µÄËæ»úÕûÊı
 
-void InitialMatrix(Matrix *T, int row, int col); // åªåˆ†é…ç©ºé—´ä¸åˆå§‹åŒ–
+void InitialMatrix(Matrix* T, int row, int col);  // Ö»·ÖÅä¿Õ¼ä²»³õÊ¼»¯
 
-void InitialMatrixZero(Matrix *T, int row, int col); // åˆå§‹åŒ–ä¸º0
+void InitialMatrixZero(Matrix* T, int row, int col);  // ³õÊ¼»¯Îª0
 
-void InitialMatrixRand(Matrix *T, int row, int col); // åˆå§‹åŒ–ä¸º50ä»¥å†…éšæœºæ­£æ•´æ•°
+void InitialMatrixRand(Matrix* T, int row,
+                       int col);  // ³õÊ¼»¯Îª50ÒÔÄÚËæ»úÕıÕûÊı
 
-void InputMatrix(Matrix *T); // é”®ç›˜è¾“å…¥çŸ©é˜µ
+void InputMatrix(Matrix* T);  // ¼üÅÌÊäÈë¾ØÕó
 
-void DestroyMatrix(Matrix *T); // é‡Šæ”¾çŸ©é˜µç©ºé—´
+void DestroyMatrix(Matrix* T);  // ÊÍ·Å¾ØÕó¿Õ¼ä
 
-void PrintfMatrix(Matrix *T); // çŸ©é˜µè¾“å‡º
+void PrintfMatrix(Matrix* T);  // ¾ØÕóÊä³ö
 
-int AddMatrix(Matrix *A, Matrix *B, Matrix *C); // çŸ©é˜µåŠ ï¼Œ C = A + B
+int AddMatrix(Matrix* A, Matrix* B, Matrix* C);  // ¾ØÕó¼Ó£¬ C = A + B
 
-int MinusMatrix(Matrix *A, Matrix *B, Matrix *C); // çŸ©é˜µå‡ï¼Œ C = A - B
+int MinusMatrix(Matrix* A, Matrix* B, Matrix* C);  // ¾ØÕó¼õ£¬ C = A - B
 
-int MultiMatrix(Matrix *A, Matrix *B, Matrix *C); // çŸ©é˜µä¹˜æ³•ï¼ŒC = A * B
+int MultiMatrix(Matrix* A, Matrix* B, Matrix* C);  // ¾ØÕó³Ë·¨£¬C = A * B
 
-double MeanMatrix(Matrix *T); // çŸ©é˜µå…ƒç´ å‡å€¼
+double MeanMatrix(Matrix* T);  // ¾ØÕóÔªËØ¾ùÖµ
 
-int SubMatrix(Matrix *T1, Matrix *T2, int BeginRow, int BeginCol, int EndRow, int EndCol); // æ±‚T1çš„å­çŸ©é˜µT2
+int SubMatrix(Matrix* T1, Matrix* T2, int BeginRow, int BeginCol, int EndRow,
+              int EndCol);  // ÇóT1µÄ×Ó¾ØÕóT2
 
-double MaxMatrix(Matrix *T); // çŸ©é˜µå…ƒç´ æœ€å¤§å€¼
+double MaxMatrix(Matrix* T);  // ¾ØÕóÔªËØ×î´óÖµ
 
-void TransMatrix(Matrix *T); // çŸ©é˜µè½¬ç½®
+void TransMatrix(Matrix* T);  // ¾ØÕó×ªÖÃ
 
-void NormMatrix(Matrix *T); // çŸ©é˜µå½’ä¸€åŒ–
+void NormMatrix(Matrix* T);  // ¾ØÕó¹éÒ»»¯
 
-double Determinant(Matrix *T); // æ±‚è¡Œåˆ—å¼
+double Determinant(Matrix* T);  // ÇóĞĞÁĞÊ½
 
-void AdjugateMatrix(Matrix *T, Matrix *adj); // æ±‚ä¼´éšçŸ©é˜µ
+void AdjugateMatrix(Matrix* T, Matrix* adj);  // Çó°éËæ¾ØÕó
 
-void ReverseMatrix(Matrix *A, Matrix *B); // Bæ˜¯Açš„é€†çŸ©é˜µ
+void ReverseMatrix(Matrix* A, Matrix* B);  // BÊÇAµÄÄæ¾ØÕó
 #endif
