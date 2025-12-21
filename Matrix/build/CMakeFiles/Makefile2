@@ -53,10 +53,10 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\MatrixCalculate\Matrix
+CMAKE_SOURCE_DIR = D:\C_Personal_homework\MatrixCalculate\Matrix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\MatrixCalculate\Matrix\build
+CMAKE_BINARY_DIR = D:\C_Personal_homework\MatrixCalculate\Matrix\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -103,14 +103,14 @@ Doc/clean: Doc/CMakeFiles/MatrixCalculate.dir/clean
 Doc/CMakeFiles/MatrixCalculate.dir/all:
 	$(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/depend
 	$(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=1,2,3 "Built target MatrixCalculate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=1,2,3 "Built target MatrixCalculate"
 .PHONY : Doc/CMakeFiles/MatrixCalculate.dir/all
 
 # Build rule for subdir invocation for target.
 Doc/CMakeFiles/MatrixCalculate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MatrixCalculate\Matrix\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/CMakeFiles/MatrixCalculate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MatrixCalculate\Matrix\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles 0
 .PHONY : Doc/CMakeFiles/MatrixCalculate.dir/rule
 
 # Convenience name for target.
@@ -120,7 +120,7 @@ MatrixCalculate: Doc/CMakeFiles/MatrixCalculate.dir/rule
 # codegen rule for target.
 Doc/CMakeFiles/MatrixCalculate.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target MatrixCalculate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target MatrixCalculate"
 .PHONY : Doc/CMakeFiles/MatrixCalculate.dir/codegen
 
 # clean rule for target.

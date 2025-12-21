@@ -1,5 +1,5 @@
 Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj: \
- D:\MatrixCalculate\Matrix\Doc\function.c \
+ D:\C_Personal_homework\MatrixCalculate\Matrix\Doc\function.c \
  D:/MinGW64/x86_64-w64-mingw32/include/math.h \
  D:/MinGW64/x86_64-w64-mingw32/include/crtdefs.h \
  D:/MinGW64/x86_64-w64-mingw32/include/corecrt.h \
@@ -22,4 +22,4 @@ Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj: \
  D:/MinGW64/x86_64-w64-mingw32/include/malloc.h \
  D:/MinGW64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
  D:/MinGW64/x86_64-w64-mingw32/include/errno.h \
- D:/MatrixCalculate/Matrix/Lib/Matrix.h
+ D:/C_Personal_homework/MatrixCalculate/Matrix/Lib/Matrix.h

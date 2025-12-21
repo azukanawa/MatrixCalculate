@@ -391,7 +391,7 @@ void AdjugateMatrix(Matrix* T, Matrix* adj)  // Çó°éËæ¾ØÕó
   Aij.mat = NULL;
 
   int z = 0;
-  double det = 0.0;
+
   InitialMatrixZero(adj, T->row, T->col);
   for (int i = 0; i < T->row; i++) {
     for (int j = 0; j < T->col; j++) {

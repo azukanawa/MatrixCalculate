@@ -1,8 +1,8 @@
-# Install script for directory: D:/MatrixCalculate/Matrix/Doc
+# Install script for directory: D:/C_Personal_homework/MatrixCalculate/Matrix/Doc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Project")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/MatrixCalculate")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/MatrixCalculate/Matrix/build/Doc/install_local_manifest.txt"
+  file(WRITE "D:/C_Personal_homework/MatrixCalculate/Matrix/build/Doc/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

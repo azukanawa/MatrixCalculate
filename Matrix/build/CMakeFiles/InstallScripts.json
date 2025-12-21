@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"D:/MatrixCalculate/Matrix/build/cmake_install.cmake",
-		"D:/MatrixCalculate/Matrix/build/Doc/cmake_install.cmake"
+		"D:/C_Personal_homework/MatrixCalculate/Matrix/build/cmake_install.cmake",
+		"D:/C_Personal_homework/MatrixCalculate/Matrix/build/Doc/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

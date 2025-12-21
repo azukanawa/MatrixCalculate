@@ -1,5 +1,5 @@
 Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj: \
- D:\MatrixCalculate\Matrix\Doc\main.c \
+ D:\C_Personal_homework\MatrixCalculate\Matrix\Doc\main.c \
  D:/MinGW64/x86_64-w64-mingw32/include/stdio.h \
  D:/MinGW64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  D:/MinGW64/x86_64-w64-mingw32/include/corecrt.h \
@@ -26,5 +26,5 @@ Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj: \
  D:/MinGW64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
  D:/MinGW64/x86_64-w64-mingw32/include/_timeval.h \
  D:/MinGW64/x86_64-w64-mingw32/include/pthread_time.h \
- D:/MatrixCalculate/Matrix/Lib/function.h \
- D:/MatrixCalculate/Matrix/Lib/Matrix.h
+ D:/C_Personal_homework/MatrixCalculate/Matrix/Lib/function.h \
+ D:/C_Personal_homework/MatrixCalculate/Matrix/Lib/Matrix.h

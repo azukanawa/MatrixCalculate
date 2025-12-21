@@ -56,7 +56,7 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "MatrixCalculate::@a6d4dd9690d762d99269",
-					"jsonFile" : "target-MatrixCalculate-Debug-cfc35aee3162ea784dcb.json",
+					"jsonFile" : "target-MatrixCalculate-Debug-b86df57dd4d8d576933b.json",
 					"name" : "MatrixCalculate",
 					"projectIndex" : 0
 				}
@@ -66,8 +66,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/MatrixCalculate/Matrix/build",
-		"source" : "D:/MatrixCalculate/Matrix"
+		"build" : "D:/C_Personal_homework/MatrixCalculate/Matrix/build",
+		"source" : "D:/C_Personal_homework/MatrixCalculate/Matrix"
 	},
 	"version" : 
 	{

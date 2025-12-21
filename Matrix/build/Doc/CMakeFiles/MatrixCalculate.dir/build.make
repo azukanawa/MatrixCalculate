@@ -52,10 +52,10 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\MatrixCalculate\Matrix
+CMAKE_SOURCE_DIR = D:\C_Personal_homework\MatrixCalculate\Matrix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\MatrixCalculate\Matrix\build
+CMAKE_BINARY_DIR = D:\C_Personal_homework\MatrixCalculate\Matrix\build
 
 # Include any dependencies generated for this target.
 include Doc/CMakeFiles/MatrixCalculate.dir/depend.make
@@ -73,33 +73,33 @@ Doc/CMakeFiles/MatrixCalculate.dir/codegen:
 
 Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj: Doc/CMakeFiles/MatrixCalculate.dir/flags.make
 Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj: Doc/CMakeFiles/MatrixCalculate.dir/includes_C.rsp
-Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj: D:/MatrixCalculate/Matrix/Doc/main.c
+Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj: D:/C_Personal_homework/MatrixCalculate/Matrix/Doc/main.c
 Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj: Doc/CMakeFiles/MatrixCalculate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj"
-	cd /d D:\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj -MF CMakeFiles\MatrixCalculate.dir\main.c.obj.d -o CMakeFiles\MatrixCalculate.dir\main.c.obj -c D:\MatrixCalculate\Matrix\Doc\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj"
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj -MF CMakeFiles\MatrixCalculate.dir\main.c.obj.d -o CMakeFiles\MatrixCalculate.dir\main.c.obj -c D:\C_Personal_homework\MatrixCalculate\Matrix\Doc\main.c
 
 Doc/CMakeFiles/MatrixCalculate.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MatrixCalculate.dir/main.c.i"
-	cd /d D:\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MatrixCalculate\Matrix\Doc\main.c > CMakeFiles\MatrixCalculate.dir\main.c.i
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C_Personal_homework\MatrixCalculate\Matrix\Doc\main.c > CMakeFiles\MatrixCalculate.dir\main.c.i
 
 Doc/CMakeFiles/MatrixCalculate.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MatrixCalculate.dir/main.c.s"
-	cd /d D:\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MatrixCalculate\Matrix\Doc\main.c -o CMakeFiles\MatrixCalculate.dir\main.c.s
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C_Personal_homework\MatrixCalculate\Matrix\Doc\main.c -o CMakeFiles\MatrixCalculate.dir\main.c.s
 
 Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj: Doc/CMakeFiles/MatrixCalculate.dir/flags.make
 Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj: Doc/CMakeFiles/MatrixCalculate.dir/includes_C.rsp
-Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj: D:/MatrixCalculate/Matrix/Doc/function.c
+Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj: D:/C_Personal_homework/MatrixCalculate/Matrix/Doc/function.c
 Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj: Doc/CMakeFiles/MatrixCalculate.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj"
-	cd /d D:\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj -MF CMakeFiles\MatrixCalculate.dir\function.c.obj.d -o CMakeFiles\MatrixCalculate.dir\function.c.obj -c D:\MatrixCalculate\Matrix\Doc\function.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj"
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj -MF CMakeFiles\MatrixCalculate.dir\function.c.obj.d -o CMakeFiles\MatrixCalculate.dir\function.c.obj -c D:\C_Personal_homework\MatrixCalculate\Matrix\Doc\function.c
 
 Doc/CMakeFiles/MatrixCalculate.dir/function.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/MatrixCalculate.dir/function.c.i"
-	cd /d D:\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\MatrixCalculate\Matrix\Doc\function.c > CMakeFiles\MatrixCalculate.dir\function.c.i
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\C_Personal_homework\MatrixCalculate\Matrix\Doc\function.c > CMakeFiles\MatrixCalculate.dir\function.c.i
 
 Doc/CMakeFiles/MatrixCalculate.dir/function.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/MatrixCalculate.dir/function.c.s"
-	cd /d D:\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\MatrixCalculate\Matrix\Doc\function.c -o CMakeFiles\MatrixCalculate.dir\function.c.s
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc && D:\MinGW64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\C_Personal_homework\MatrixCalculate\Matrix\Doc\function.c -o CMakeFiles\MatrixCalculate.dir\function.c.s
 
 # Object files for target MatrixCalculate
 MatrixCalculate_OBJECTS = \
@@ -115,18 +115,18 @@ Doc/MatrixCalculate.exe: Doc/CMakeFiles/MatrixCalculate.dir/build.make
 Doc/MatrixCalculate.exe: Doc/CMakeFiles/MatrixCalculate.dir/linkLibs.rsp
 Doc/MatrixCalculate.exe: Doc/CMakeFiles/MatrixCalculate.dir/objects1.rsp
 Doc/MatrixCalculate.exe: Doc/CMakeFiles/MatrixCalculate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable MatrixCalculate.exe"
-	cd /d D:\MatrixCalculate\Matrix\build\Doc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MatrixCalculate.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable MatrixCalculate.exe"
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MatrixCalculate.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Doc/CMakeFiles/MatrixCalculate.dir/build: Doc/MatrixCalculate.exe
 .PHONY : Doc/CMakeFiles/MatrixCalculate.dir/build
 
 Doc/CMakeFiles/MatrixCalculate.dir/clean:
-	cd /d D:\MatrixCalculate\Matrix\build\Doc && $(CMAKE_COMMAND) -P CMakeFiles\MatrixCalculate.dir\cmake_clean.cmake
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc && $(CMAKE_COMMAND) -P CMakeFiles\MatrixCalculate.dir\cmake_clean.cmake
 .PHONY : Doc/CMakeFiles/MatrixCalculate.dir/clean
 
 Doc/CMakeFiles/MatrixCalculate.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\MatrixCalculate\Matrix D:\MatrixCalculate\Matrix\Doc D:\MatrixCalculate\Matrix\build D:\MatrixCalculate\Matrix\build\Doc D:\MatrixCalculate\Matrix\build\Doc\CMakeFiles\MatrixCalculate.dir\DependInfo.cmake "--color=$(COLOR)" MatrixCalculate
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\C_Personal_homework\MatrixCalculate\Matrix D:\C_Personal_homework\MatrixCalculate\Matrix\Doc D:\C_Personal_homework\MatrixCalculate\Matrix\build D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc\CMakeFiles\MatrixCalculate.dir\DependInfo.cmake "--color=$(COLOR)" MatrixCalculate
 .PHONY : Doc/CMakeFiles/MatrixCalculate.dir/depend
 

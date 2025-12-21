@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = @CMakeFiles/MatrixCalculate.dir/includes_C.rsp
 
-C_FLAGS = -g
+C_FLAGS =  -Wall -Wextra -Werror -O0 -g -g
 

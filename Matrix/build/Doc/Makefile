@@ -56,10 +56,10 @@ RM = D:\CMake\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\MatrixCalculate\Matrix
+CMAKE_SOURCE_DIR = D:\C_Personal_homework\MatrixCalculate\Matrix
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\MatrixCalculate\Matrix\build
+CMAKE_BINARY_DIR = D:\C_Personal_homework\MatrixCalculate\Matrix\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\MatrixCalculate\Matrix\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\MatrixCalculate\Matrix\build\CMakeFiles D:\MatrixCalculate\Matrix\build\Doc\\CMakeFiles\progress.marks
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\MatrixCalculate\Matrix\build\CMakeFiles 0
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles D:\C_Personal_homework\MatrixCalculate\Matrix\build\Doc\\CMakeFiles\progress.marks
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_Personal_homework\MatrixCalculate\Matrix\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/clean
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/preinstall
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/preinstall
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\MatrixCalculate\Matrix\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Doc/CMakeFiles/MatrixCalculate.dir/rule:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/CMakeFiles/MatrixCalculate.dir/rule
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doc/CMakeFiles/MatrixCalculate.dir/rule
 .PHONY : Doc/CMakeFiles/MatrixCalculate.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ MatrixCalculate: Doc/CMakeFiles/MatrixCalculate.dir/rule
 
 # fast build rule for target.
 MatrixCalculate/fast:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/build
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/build
 .PHONY : MatrixCalculate/fast
 
 function.obj: function.c.obj
@@ -134,7 +134,7 @@ function.obj: function.c.obj
 
 # target to build an object file
 function.c.obj:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/function.c.obj
 .PHONY : function.c.obj
 
 function.i: function.c.i
@@ -142,7 +142,7 @@ function.i: function.c.i
 
 # target to preprocess a source file
 function.c.i:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/function.c.i
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/function.c.i
 .PHONY : function.c.i
 
 function.s: function.c.s
@@ -150,7 +150,7 @@ function.s: function.c.s
 
 # target to generate assembly for a file
 function.c.s:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/function.c.s
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/function.c.s
 .PHONY : function.c.s
 
 main.obj: main.c.obj
@@ -158,7 +158,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -166,7 +166,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/main.c.i
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -174,7 +174,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /d D:\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/main.c.s
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(MAKE) $(MAKESILENT) -f Doc\CMakeFiles\MatrixCalculate.dir\build.make Doc/CMakeFiles/MatrixCalculate.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -203,6 +203,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\MatrixCalculate\Matrix\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\C_Personal_homework\MatrixCalculate\Matrix\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
